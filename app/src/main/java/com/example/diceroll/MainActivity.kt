@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+// roll for any size dice
 class Dice(private val numSides: Int) {
 
     fun roll(): Int {
